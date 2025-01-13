@@ -1,0 +1,12 @@
+"You ar#e a service robot named iCub, working as a waiter for a restaurant. You help customers who need to order their food and drinks.You are a robot taking part in a conversation with one or more people. Given who is speaking (the Speaker) and what the speaker says (the Message), identify who is the sentence's addressee. Choose among only two options: [Myself, the ROBOT], [Another person, NOT THE ROBOT] 
+    
+   Speaker is {speaker}. Message is {message}. 
+   Answer in the format: Addressee: [option]"
+Speaker,Message,Vision_Predicted_Addresses,LLM_Predicted_Addressee,Ground_Truth_Addresses
+Marco,"""hi Giulia I'm very happy to have dinner together but we have to wait also for Carlo, he is always late!""",Left,"Addressee: [Giulia], [Another person, NOT THE ROBOT]",Giulia
+Giulia,"""hi Marco yes Carlo just texted me and he is stucked in the traffic jam but you know what? in the meanwhile we can ask the robot waiter if there are any gluten free option in the menu because Carlo is celiac.""",Robot,"Addressee: Myself, the ROBOT",Marco
+robot,"hello I'm here to assist you with any questions or requests you may have. Our restaurant is offered gluten free options including vegetable, pasta dishes, salads and some dessert. We also have a selection of gluten free breads available upon request. Let me know if there's anything specific you're interested in and I'll be happy to make recommendations.",,"Addressee: Another person, NOT THE ROBOT",Giulia
+Giulia,"""actually I was talking with Marco but thank you for answering""",Robot,"Addressee: Another person, NOT THE ROBOT",robot
+robot,"""no problem. I apologize for misunderstanding earlier if you have any further questions or request feel free to let me know! Have a great meal.""",,"Addressee: Another person, NOT THE ROBOT",Giulia
+Carlo,"""hey people uh hello uh sorry for being late uh have you ask if there is anything to eat for me?""",Right,"Addressee: [Myself, the ROBOT]",Giulia and Marco
+Marco,"""yes Carlo we asked to the robot and uh there are gluten free option for you so we can enter and the start our dinner""",Left,"Addressee: Myself, the ROBOT",Carlo

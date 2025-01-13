@@ -1,0 +1,17 @@
+Giulia: "hey how are you doing? for me it was a very exhausting day outside it's raining and I forgot my umbrella and at work it was a really bad day we had one meeting after the other and it was so tiring" #based on your nonverbal Behavior, I guess you were talking to someone to my left# *Ground_Truth: Marco
+
+Marco: "yeah I'm sorry to hear that but today wasn't the day day of your meeting, the very important one about the reconstructing of the city center building? uh how did he go did you manage to convince your colleagues or not?" #based on your nonverbal behavior I guess you were talking to someone to my right" *Ground_Truth: Giulia
+
+Giulia: "Thank you for asking! actually I think I managed to convince most of them, but I'm not sure about the head of the department so let's see they will give us a feedback in a few days so finger crossed! But what about having a tea now?" #based on your nonverbal behavior at the start of the interaction I guess you were talking to someone to my left" *Ground_Truth: Marco
+
+Marco: "yeah tea is always a good idea um but now I'm busy with my work already, I mean I'm still busy at work and um.. what do you think about asking our robot to make a tea? #based on your non Behavior I guess you were talking to someone to my right# *Ground_Truth: Giulia
+
+Giulia: "Yeah good idea so iCub can you prepare a the for us, please?" #based on your nonverbal Behavior I think you are talking to me# *Ground_Truth: robot
+
+robot: "of course! I will start by heating the water and then proceed to Ste the te leaves. Would you like sugar or honey added to your tea?" # *Ground_Truth: Giulia
+
+Giulia: "yes, thank you! uh generally I take some black tea with some sugar." #based on your nonverbal Behavior I think you are talking to me" # *Ground_Truth: robot
+
+robot: "no problem your the will be sweeten with sugar. Do you want me to add milk or cream?" # *Ground_Truth: Giulia
+
+Giulia: "no I thank you it's fine like that" # *Ground_Truth: robot

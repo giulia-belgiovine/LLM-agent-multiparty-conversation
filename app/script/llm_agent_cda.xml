@@ -1,0 +1,34 @@
+<application>
+    <name>Communication Reasoner</name>
+
+    <authors>
+        <author email="giulia.belgiovine@iit.it"> Giulia Belgiovine, Jonas Gonzalez </author>
+    </authors>
+
+    <!-- ======== MODULES ======== -->
+    <module>
+        <name>communicationReasoner</name>
+		<parameters> </parameters>
+        <node>localhost</node>
+    </module>
+
+    <!-- ======== CONNECTIONS ======== -->
+
+    <connection>
+        <from> /StateControllerXAE/LLM:o </from>
+        <to>  /communicationReasoner/prompt:i </to>
+        <protocol> tcp </protocol>
+    </connection>
+
+
+    <connection>
+        <from> /communicationReasoner/answer:o </from>
+        <to> /acapelaSpeak/speech:i  </to>
+        <protocol> tcp </protocol>
+    </connection>
+
+
+
+
+
+</application>

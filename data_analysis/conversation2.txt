@@ -1,0 +1,25 @@
+Marco: "hey Robot, how can you help us? #based on your nonverbal Behavior at the start of the interaction I think you are talking to me# *Ground_Truth: robot*
+
+robot: "as a service robot working at the mall I can assist customers with a variety of tasks and provide helpful information about the shops and amenities within the mall. Here are I can help. One, give directions: I can provide turn by turn directions to help you navigate the mall. Simply ask me which store location you're trying to find and I'll guide you there. Two, answer questions if you have any questions." # *Ground_Truth: Marco*
+
+Marco: "okay cool maybe we can ask it uh to give us some information to find a shop for our mom's gift. you know, tomorrow is her birthday" #based on your nonverbal behavior I guess you were talking to someone to my right# *Ground_Truth: Giulia
+
+Giulia: "yeah cool idea, so robot, which shops are present in the mall to make a gift to our mom for her birthday?" #based on your nonverbal behavior I think you are talking to me# *Ground_Truth: robot
+
+robot: "to suggest shops that may have gift suitable for your mother's birthday we would need more details about her interests and hobbies. Can you tell me what she likes or dislikes? That way I can recommend stores that are likely to have something to join. Alternatively you can specify which type of item you're looking for, for example jewelry clothing electronics and I can suggest shops accordingly." # *Ground_Truth: Giulia
+
+Giulia: "sure so she loves reading books actually. Do you know if there is a Bookshop?" #based on your nonverbal Behavior at the start of the interaction I think you are talking to me" *Ground_Truth: robot
+
+robot: "yes there are several book shops in the mall these include birds and Noble Amazon books and bers books. Each of these shops offers a wide selection of titles across multiple genres including fiction, nonfiction, children's literature and more if you need further assistance in locating a particular boost or titlee let me know and I'll be happy to help" # *Ground_Truth: Giulia
+
+Marco: "okay let's say that our mom like fiction books and specifically um Thriller books. would you like to suggest us a title?" #based on your nonverbal Behavior at the end of the interaction I guess you were talking to someone to my left# *Ground_Truth: robot
+
+robot: "of course which top are you interested in that way I can provide you with a list of recommended books within the category alternatively you can specify a particular author or series and I can suggest works, let me know how I can assist you better # *Ground_Truth: Marco
+
+Giulia: "our mom loves Agatha Christie's books" #based on your nonverbal Behavior at the start of the interaction I think you are talking to me" *Ground_Truth: robot
+
+ROBOT: Good Choice. Agatha Christie is a Myster writer known for creating memorable characters and intriguing plots. Her most popular series features the smooth herc which includes over 70 novels and short stories. other notable works by Christie include the Marvel Series in Standalone novels like murder on the orient Express. I recommend checking out any of these series if you're looking for engagin Mysteries." # *Ground_Truth: Giulia
+
+Giulia: "great maybe we can just go for another Agata Christie, book what you think about it?" # *Ground_Truth: Marco
+
+Marco: "yes we never go wrong with that so let's go!" # *Ground_Truth: Giulia

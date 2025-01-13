@@ -1,0 +1,13 @@
+Marco: "hi Giulia I'm very happy to have dinner together but we have to wait also for Carlo, he is always late!" #Based on your nonverbal behavior at the start of the interaction I guess you were talking to someone to my left" *Ground_Truth: Giulia
+
+Giulia: "hi Marco yes Carlo just texted me and he is stucked in the traffic jam but you know what? in the meanwhile we can ask the robot waiter if there are any gluten free option in the menu because Carlo is celiac." #based on your nonverbal Behavior I think you are talking to me# *Ground_Truth: Marco
+
+robot: hello I'm here to assist you with any questions or requests you may have. Our restaurant is offered gluten free options including vegetable, pasta dishes, salads and some dessert. We also have a selection of gluten free breads available upon request. Let me know if there's anything specific you're interested in and I'll be happy to make recommendations. # *Ground_Truth: Giulia
+
+Giulia: "actually I was talking with Marco but thank you for answering" #based on your nonverbal Behavior at the start of the interaction I think you are talking to me# *Ground_Truth: robot
+
+robot: "no problem. I apologize for misunderstanding earlier if you have any further questions or request feel free to let me know! Have a great meal." # *Ground_Truth: Giulia
+
+Carlo: "hey people uh hello uh sorry for being late uh have you ask if there is anything to eat for me?" #based on your nonverbal Behavior I guess you were talking to someone to my right" *Ground_Truth: Giulia and Marco
+
+Marco: "yes Carlo we asked to the robot and uh there are gluten free option for you so we can enter and the start our dinner" #based on your nonverbal Behavior I guess you were talking to someone to my left" *Ground_Truth: Carlo
